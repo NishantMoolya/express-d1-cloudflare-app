@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Health check endpoint
 app.get("/", (req, res) => {
-  res.json({ message: "Express.js running on Cloudflare Workers!" });
+  res.json({ message: "Express.js + D1 Database running on Cloudflare Workers!" });
 });
 
 // GET all members
